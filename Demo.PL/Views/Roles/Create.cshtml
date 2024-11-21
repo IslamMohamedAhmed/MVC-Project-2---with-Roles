@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <h6>Create New Role</h6>
+    <partial name="PartialViews/CreateEditPartialView"></partial>
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <input type="submit" value="Add" class="btn btnStyl btn-outline-success" />
+    <a asp-action="Index" class="btn btnStyl btn-outline-dark">Back To List</a>
+</form>
+
+
+@section Validation {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}
+

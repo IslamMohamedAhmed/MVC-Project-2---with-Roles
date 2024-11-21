@@ -1,0 +1,16 @@
+﻿@model DepartmentViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+
+<form asp-action="Create">
+    <h6>Create New Department</h6>
+    <partial name="PartialViews/CreateEditPartialView"></partial>
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <input type="submit" value="Add" class="btn btnStyl btn-outline-success" />
+    <a asp-action="Index" class="btn btnStyl btn-outline-dark">Back To List</a>
+</form>
+

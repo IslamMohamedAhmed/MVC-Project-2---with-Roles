@@ -1,0 +1,11 @@
+﻿@model string
+<td>
+
+    <a class="text-info" asp-action="Details" asp-route-id="@Model"><i class="fa-solid fa-eye"></i></a>
+</td>
+<td>
+    <a class="text-warning" asp-action="Edit" asp-route-id="@Model"><i class="fa-solid fa-edit"></i></a>
+</td>
+<td>
+    <a class="text-danger" asp-action="Delete" asp-route-id="@Model"><i class="fa-solid fa-trash"></i></a>
+</td>

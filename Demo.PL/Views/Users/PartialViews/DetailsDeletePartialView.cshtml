@@ -1,0 +1,21 @@
+﻿@model UserViewModel
+
+
+
+
+<div class="my-3">@Html.DisplayNameFor(D => D.Id) : @Html.DisplayFor(d => d.Id)</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.FirstName) : @Html.DisplayFor(d => d.FirstName)</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.LastName) : @Html.DisplayFor(d => d.LastName)</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.UserName) : @Html.DisplayFor(d => d.UserName)</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.Email) : @Html.DisplayFor(d => d.Email)</div>
+<div class="my-3">
+    @Html.DisplayNameFor(D => D.Roles) : @if (Model.Roles.Any())
+    {
+        @string.Join(",", Model.Roles)
+    }
+    else
+    {
+        <span class="text-danger">No Roles Added Yet</span>
+    }
+</div>
+

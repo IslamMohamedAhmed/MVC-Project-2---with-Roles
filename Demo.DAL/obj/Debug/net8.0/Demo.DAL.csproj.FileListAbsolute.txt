@@ -1,0 +1,12 @@
+E:\DemoMoGaMvc\Demo.DAL\bin\Debug\net8.0\Demo.DAL.deps.json
+E:\DemoMoGaMvc\Demo.DAL\bin\Debug\net8.0\Demo.DAL.dll
+E:\DemoMoGaMvc\Demo.DAL\bin\Debug\net8.0\Demo.DAL.pdb
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.csproj.AssemblyReference.cache
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.AssemblyInfoInputs.cache
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.AssemblyInfo.cs
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.csproj.CoreCompileInputs.cache
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.dll
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\refint\Demo.DAL.dll
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\Demo.DAL.pdb
+E:\DemoMoGaMvc\Demo.DAL\obj\Debug\net8.0\ref\Demo.DAL.dll

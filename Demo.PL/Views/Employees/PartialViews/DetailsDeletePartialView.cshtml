@@ -1,0 +1,20 @@
+﻿@model EmployeeViewModel
+
+<div class="my-3 mx-auto text-center" style="border:2px solid red; border-radius:30px; overflow:hidden;
+ width:fit-content;"><img src="~/Files/Images/@Model.ImageName" width="100" height="100" class="rounded" /></div>
+<div class="my-3">@Html.DisplayNameFor(D => D.Name) : @Model.Name</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.Age) : @Model.Age</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.Address) : @Model.Address</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.Salary) : @Html.DisplayFor(d => d.Salary)</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.Email) : @Html.DisplayFor(d => d.Email)</div>
+<div class="my-3">@Html.DisplayNameFor(D => D.PhoneNumber) : @Html.DisplayFor(d => d.PhoneNumber)</div>
+<div class="my-3">
+    @Html.DisplayNameFor(D => D.IsActive) :  @if (Model.IsActive)
+    {
+        <i class="fa-solid fa-check" style="color:green;"></i>
+    }
+    else
+    {
+        <i class="fa-solid fa-xmark" style="color:red;"></i>
+    }
+</div>

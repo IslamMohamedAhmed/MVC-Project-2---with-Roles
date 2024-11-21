@@ -1,0 +1,15 @@
+E:\DemoMoGaMvc\Demo.BLL\bin\Debug\net8.0\Demo.BLL.deps.json
+E:\DemoMoGaMvc\Demo.BLL\bin\Debug\net8.0\Demo.BLL.dll
+E:\DemoMoGaMvc\Demo.BLL\bin\Debug\net8.0\Demo.BLL.pdb
+E:\DemoMoGaMvc\Demo.BLL\bin\Debug\net8.0\Demo.DAL.dll
+E:\DemoMoGaMvc\Demo.BLL\bin\Debug\net8.0\Demo.DAL.pdb
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.csproj.AssemblyReference.cache
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.AssemblyInfoInputs.cache
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.AssemblyInfo.cs
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.csproj.CoreCompileInputs.cache
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.csproj.Up2Date
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.dll
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\refint\Demo.BLL.dll
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\Demo.BLL.pdb
+E:\DemoMoGaMvc\Demo.BLL\obj\Debug\net8.0\ref\Demo.BLL.dll

@@ -1,0 +1,20 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Delete">
+    <h6>Will you delete User @Model.UserName?</h6>
+    <partial name="PartialViews/DetailsDeletePartialView"></partial>
+    <input asp-for="FirstName" hidden />
+    <input asp-for="LastName" hidden />
+    <input asp-for="UserName" hidden />
+    <input asp-for="Id" hidden />
+    <input asp-for="Email" hidden />
+
+    <input type="submit" value="Yes" class="btn btnStyl btn-outline-danger">
+    <a asp-action="Index" class="btn btnStyl btn-outline-dark">No</a>
+
+</form>
+

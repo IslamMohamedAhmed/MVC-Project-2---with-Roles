@@ -1,0 +1,57 @@
+﻿@model IEnumerable<RoleViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="d-flex align-items-center">
+    <h1 class="my-5">All Roles</h1>
+    <a asp-action="Create" style="border-radius:50%;" class="btn btn-outline-success ms-3"><i class="fa-solid fa-plus"></i></a>
+</div>
+
+
+<form asp-action="Index" class="row w-75 mx-auto my-5">
+    <input placeholder="Search Roles" class="col-10" type="text" name="Name" />
+    <input class="btn btnStyl btn-outline-info col-2" type="submit" value="Search" />
+</form>
+@if (Model.Any())
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(d => d.Id)</td>
+                <td>@Html.DisplayNameFor(d => d.Name)</td>
+
+                
+                <td>
+                    Details
+                </td>
+                <td>
+                    Edit
+                </td>
+                <td>
+                    Remove
+                </td>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@Html.DisplayFor(d => item.Id)</td>
+                <td>@Html.DisplayFor(d => item.Name)</td>
+
+               
+                <partial name="ButtonsPartialView" model="@item.Id"></partial>
+            </tr>
+
+        }
+    </table>
+}
+else
+{
+    <div class="alert alert-warning p-5 my-5">No Available Roles at the moment</div>
+}
+
+

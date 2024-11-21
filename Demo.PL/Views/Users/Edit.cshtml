@@ -1,0 +1,14 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Edit" >
+    <h6>Edit User @Model.UserName</h6>
+    <partial name="PartialViews/CreateEditPartialView"></partial>
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <input type="submit" value="Save" class="btn btnStyl btn-outline-warning" />
+    <a asp-action="Index" class="btn btnStyl btn-outline-dark">Back To List</a>
+</form>
+

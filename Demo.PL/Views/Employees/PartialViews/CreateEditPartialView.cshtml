@@ -1,0 +1,49 @@
+﻿@model EmployeeViewModel
+@{
+    var departments = new SelectList(ViewBag.Departments, "Id", "Name");
+}
+
+<input asp-for="ImageName" hidden/>
+<div class="my-3">
+    <label asp-for="Name"></label>
+    <input class="form-control" asp-for="Name" />
+</div>
+<div class="my-3">
+    <label asp-for="Age"></label>
+    <input class="form-control" asp-for="Age" />
+</div>
+<div class="my-3">
+    <label asp-for="Image"></label>
+    <input class="form-control" asp-for="Image" />
+</div>
+<div class="my-3">
+    <label asp-for="Address"></label>
+    <input class="form-control" asp-for="Address" />
+</div>
+<div class="my-3">
+    <label asp-for="Salary"></label>
+    <input class="form-control" asp-for="Salary" />
+</div>
+<div class="my-3">
+    <label asp-for="Email"></label>
+    <input class="form-control" asp-for="Email" />
+</div>
+<div class="my-3">
+    <label asp-for="PhoneNumber"></label>
+    <input class="form-control" asp-for="PhoneNumber" />
+</div>
+<div class="my-3">
+    <label asp-for="department"></label>
+    <select class="form-select"  asp-items="@departments" asp-for="departmentId">
+        <option selected value="@null">
+            Select Department
+        </option>
+    </select>
+</div>
+<div class="my-3">
+    <label asp-for="IsActive"></label>
+    <select asp-for="IsActive" class="form-select">
+        <option value=true selected>True</option>
+        <option value=false>False</option>
+    </select>
+</div>
